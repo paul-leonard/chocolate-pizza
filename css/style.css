@@ -2,6 +2,107 @@
   outline: dotted 1px orange;
 }
 
-??? {
-  background-image: url('img/list-bg.png');
+
+
+
+header {
+  outline: solid 3px darkorchid;
+  width: 960px;
+  margin: 0 auto;
+  height: 75px;
+}
+
+#logo {
+  float: left;
+  margin-right: 5px;
+}
+
+#title {
+  float: left;
+}
+
+#icons {
+  float: right;
+
+}
+
+#icons li {
+  float: left;
+}
+
+main {
+  outline: solid 3px darkorchid;
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+
+#titleDiv {
+  outline: dashed 1px red;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.onTheRight {
+  float: right;
+}
+
+/* #printer {
+  float: left;
+} */
+
+.onTheRight > p {
+  float: right;
+  margin-left: 5px;
+}
+
+#pizza {
+  width: 960px;
+
+}
+
+#paragraphs {
+  outline: dashed 1px aqua;
+
+}
+
+#paragraphs p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#recipe {
+  outline: dashed 1px red;
+  background-image: url("../img/list-bg.png");
+  height: 300px;
+}
+
+.itemList {
+  outline: solid 2px orange;
+  width: 50%;
+  float: left;
+  
+}
+
+.itemList input {
+  display: block;
+}
+
+#author {
+  outline: dashed 1px aqua;
+}
+
+footer {
+  outline: solid 3px darkorchid;
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+hr {
+  height: 10px;
+  background-color: lightgrey;
+  width: 960px;
 }
