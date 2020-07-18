@@ -1,54 +1,73 @@
-
-
-
 header {
-  outline: solid 3px darkorchid;
   width: 960px;
   margin: 0 auto;
   height: 75px;
+  padding-top: 20px;;
 }
 
 #logo {
   float: left;
   margin-right: 5px;
+  padding-top: 9px;
 }
 
 #title {
   float: left;
 }
 
+#title>ul>li:first-child {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+#title>ul>li:last-child {
+  font-size: 0.5rem;
+}
+
 #icons {
   float: right;
-
+  padding-top: 15px;
 }
 
 #icons li {
   float: left;
 }
 
+#endOfIconGroup {
+  padding-right: 10px;
+}
+
 main {
-  outline: solid 3px darkorchid;
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-
-
 #titleDiv {
-  outline: dashed 1px red;
   padding-top: 40px;
   padding-bottom: 40px;
   overflow: hidden;
+}
+
+#titleDiv>section>h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#titleDiv>section>h2 {
+  color: gray;
 }
 
 .onTheRight {
   float: right;
 }
 
-/* #printer {
-  float: left;
-} */
+.onTheRight>p {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .onTheRight > p {
   float: right;
@@ -57,33 +76,37 @@ main {
 
 #pizza {
   width: 960px;
-
-}
-
-#paragraphs {
-  outline: dashed 1px aqua;
-
 }
 
 #paragraphs p {
   padding-top: 15px;
   padding-bottom: 15px;
+  color: rgb(120, 126, 110);
+  line-height: 1.3em;
+  text-indent: 20px;
 }
 
 #recipe {
-  outline: dashed 1px red;
   background-image: url("../img/list-bg.png");
   height: 300px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  background-size: cover;
 }
 
 .itemList {
-  outline: solid 2px orange;
-  width: 35%;
+  width: 45%;
   float: left;
   padding-top: 40px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.7rem;
+  line-height: 1.3em;
+  color: rgb(120, 126, 110);
 }
+
 #recipe>.itemList:first-child {
-  margin-right: 40px;
+  margin-right: 20px;
+  margin-left: 40px;
 }
 
 .itemList li {
@@ -92,16 +115,32 @@ main {
 
 #personPic {
   float: left;
+  padding-top: 20px;
 }
 
 #author {
   float: left;
-  /* vertical-align: ; */
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#author>h3{
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: rgb(120, 126, 110);
+  }
+
+#author>p {
+  color: rgb(120, 126, 110);
+  line-height: 1.5em;
+  padding-top: 10px;
 }
 
 button {
   width: 150px;
-  height: 40px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 30px;
   float: right;
   background-color: rgb(192, 109, 37);
   color: white;
@@ -109,11 +148,11 @@ button {
 }
 
 footer {
-  outline: solid 3px darkorchid;
   width: 960px;
   margin: 0 auto;
   text-align: center;
   padding-top: 30px;
+  color: gray;
 }
 
 #bottomDiv {
@@ -123,5 +162,6 @@ footer {
 hr {
   height: 10px;
   background-color: lightgrey;
+  border: none;
   width: 960px;
 }
