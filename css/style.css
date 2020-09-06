@@ -1,7 +1,167 @@
-* {
-  outline: dotted 1px orange;
+header {
+  width: 960px;
+  margin: 0 auto;
+  height: 75px;
+  padding-top: 20px;;
 }
 
-??? {
-  background-image: url('img/list-bg.png');
+#logo {
+  float: left;
+  margin-right: 5px;
+  padding-top: 9px;
+}
+
+#title {
+  float: left;
+}
+
+#title>ul>li:first-child {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+#title>ul>li:last-child {
+  font-size: 0.5rem;
+}
+
+#icons {
+  float: right;
+  padding-top: 15px;
+}
+
+#icons li {
+  float: left;
+}
+
+#endOfIconGroup {
+  padding-right: 10px;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#titleDiv {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+#titleDiv>section>h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#titleDiv>section>h2 {
+  color: gray;
+}
+
+.onTheRight {
+  float: right;
+}
+
+.onTheRight>p {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.onTheRight > p {
+  float: right;
+  margin-left: 5px;
+}
+
+#pizza {
+  width: 960px;
+}
+
+#paragraphs p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(120, 126, 110);
+  line-height: 1.3em;
+  text-indent: 20px;
+}
+
+#recipe {
+  background-image: url("../img/list-bg.png");
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  background-size: cover;
+}
+
+.itemList {
+  width: 45%;
+  float: left;
+  padding-top: 40px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.7rem;
+  line-height: 1.3em;
+  color: rgb(120, 126, 110);
+}
+
+#recipe>.itemList:first-child {
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+.itemList li {
+  list-style: none;
+}
+
+#personPic {
+  float: left;
+  padding-top: 20px;
+}
+
+#author {
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#author>h3{
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: rgb(120, 126, 110);
+  }
+
+#author>p {
+  color: rgb(120, 126, 110);
+  line-height: 1.5em;
+  padding-top: 10px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 30px;
+  float: right;
+  background-color: rgb(192, 109, 37);
+  color: white;
+  border: 0px;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  color: gray;
+}
+
+#bottomDiv {
+  padding-bottom: 100px;
+}
+
+hr {
+  height: 10px;
+  background-color: lightgrey;
+  border: none;
+  width: 960px;
 }
